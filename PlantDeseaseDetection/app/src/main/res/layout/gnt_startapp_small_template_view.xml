@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/startapp_native_image"
+        android:layout_width="@dimen/thumbnail_width_medium"
+        android:layout_height="@dimen/thumbnail_height_medium"
+        android:scaleType="centerCrop"
+        app:riv_corner_radius="8dp" />
+
+    <LinearLayout
+        android:id="@+id/startapp_native_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/startapp_native_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:maxLines="2"
+            android:text=""
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+            android:textSize="@dimen/text_title_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ad_notification_view"
+            android:layout_width="@dimen/gnt_ad_indicator_width"
+            android:layout_height="@dimen/gnt_ad_indicator_height"
+            android:background="@drawable/gnt_rounded_corners_shape"
+            android:gravity="center"
+            android:paddingTop="3dp"
+            android:text="Ad"
+            android:textColor="@color/gnt_white"
+            android:textSize="@dimen/gnt_ad_indicator_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/startapp_native_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:lineSpacingMultiplier="1.2"
+            android:maxLines="2"
+            android:text=""
+            android:textSize="@dimen/text_excerpt_size" />
+
+        <Button
+            android:id="@+id/startapp_native_button"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bg_button_background"
+            android:textColor="@color/gnt_white"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</LinearLayout>

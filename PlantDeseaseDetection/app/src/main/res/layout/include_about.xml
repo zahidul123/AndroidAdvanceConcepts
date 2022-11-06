@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/btn_switch_theme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:foreground="?selectableItemBackground"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/settings_padding_medium"
+            android:paddingTop="@dimen/settings_padding_small"
+            android:paddingRight="@dimen/settings_padding_medium"
+            android:paddingBottom="@dimen/settings_padding_small">
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_setting_theme" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="78dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_about_theme"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+                    android:textSize="@dimen/text_title_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sub_title_about_theme"
+                    android:textSize="@dimen/text_sub_title_size" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Switch
+            android:visibility="gone"
+            android:id="@+id/switch_theme"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:padding="16dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_publisher_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:foreground="?selectableItemBackground"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/settings_padding_medium"
+        android:paddingTop="@dimen/settings_padding_small"
+        android:paddingRight="@dimen/settings_padding_medium"
+        android:paddingBottom="@dimen/settings_padding_small">
+
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_about_publisher" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_about_publisher"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+                android:textSize="@dimen/text_title_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sub_title_about_publisher"
+                android:textSize="@dimen/text_sub_title_size" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_privacy_policy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:foreground="?selectableItemBackground"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/settings_padding_medium"
+        android:paddingTop="@dimen/settings_padding_small"
+        android:paddingRight="@dimen/settings_padding_medium"
+        android:paddingBottom="@dimen/settings_padding_small">
+
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_about_privacy" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_about_privacy"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+                android:textSize="@dimen/text_title_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sub_title_about_privacy"
+                android:textSize="@dimen/text_sub_title_size" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:foreground="?selectableItemBackground"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/settings_padding_medium"
+        android:paddingTop="@dimen/settings_padding_small"
+        android:paddingRight="@dimen/settings_padding_medium"
+        android:paddingBottom="@dimen/settings_padding_small">
+
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_about_rate" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_about_rate"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+                android:textSize="@dimen/text_title_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sub_title_about_rate"
+                android:textSize="@dimen/text_sub_title_size" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_more"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:foreground="?selectableItemBackground"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/settings_padding_medium"
+        android:paddingTop="@dimen/settings_padding_small"
+        android:paddingRight="@dimen/settings_padding_medium"
+        android:paddingBottom="@dimen/settings_padding_small">
+
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_about_more" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_about_more"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+                android:textSize="@dimen/text_title_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sub_title_about_more"
+                android:textSize="@dimen/text_sub_title_size" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:foreground="?selectableItemBackground"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/settings_padding_medium"
+        android:paddingTop="@dimen/settings_padding_small"
+        android:paddingRight="@dimen/settings_padding_medium"
+        android:paddingBottom="@dimen/settings_padding_small">
+
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_about_info" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_about_info"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+                android:textSize="@dimen/text_title_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sub_title_about_info"
+                android:textSize="@dimen/text_sub_title_size" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+

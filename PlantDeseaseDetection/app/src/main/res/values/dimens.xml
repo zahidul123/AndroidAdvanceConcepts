@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="toolbar_elevation">6dp</dimen>
+
+    <dimen name="spacing_small">3dp</dimen>
+    <dimen name="spacing_medium">4dp</dimen>
+    <dimen name="spacing_middle">10dp</dimen>
+    <dimen name="spacing_large">16dp</dimen>
+    <dimen name="spacing_xxlarge">40dp</dimen>
+    <dimen name="item_offset">7dp</dimen>
+
+    <dimen name="padding_small">7dp</dimen>
+    <dimen name="padding_medium">10dp</dimen>
+    <dimen name="padding_large">14dp</dimen>
+
+    <dimen name="text_heading_title_size">18sp</dimen>
+    <dimen name="text_title_size">16sp</dimen>
+    <dimen name="text_sub_title_size">13sp</dimen>
+    <dimen name="text_excerpt_size">12sp</dimen>
+
+    <dimen name="button_height">40dp</dimen>
+
+    <dimen name="settings_padding_small">12dp</dimen>
+    <dimen name="settings_padding_medium">20dp</dimen>
+
+    <dimen name="thumbnail_width_medium">104dp</dimen>
+    <dimen name="thumbnail_height_medium">104dp</dimen>
+    <dimen name="thumbnail_width_small">64dp</dimen>
+    <dimen name="thumbnail_video_height">200dp</dimen>
+    <dimen name="image_detail_height">240dp</dimen>
+
+    <dimen name="gnt_text_size_small">12sp</dimen>
+    <dimen name="gnt_ad_indicator_width">25dp</dimen>
+    <dimen name="gnt_ad_indicator_height">20dp</dimen>
+    <dimen name="gnt_ad_indicator_text_size">10sp</dimen>
+    <dimen name="applovin_banner_height">50dp</dimen>
+
+</resources>
